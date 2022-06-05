@@ -24,47 +24,18 @@ printchess()*/
 
 
 
-  /* let given = [{
-    id:1,Name:"Mohammed",age:18,level:"intermediate",tasksCompleted:8,
-    id:2,Name:"Omar",age:22,level:"beginner",tasksCompleted:2,
-    id:3,Name:"Sarah",age:20,level:"beginner",tasksCompleted:4,
-    id:4,Name:"Saleh",age:15,level:"intermediate",tasksCompleted:6,
-    id:5,Name:"Saud",age:30,level:"advanced",tasksCompleted:10,
-    id:6,Name:"Amani",age:25,level:"advanced",tasksCompleted:10,
-    id:7,Name:"Lojain",age:23,level:"advanced",tasksCompleted:10,
-    print1: function (print){
-        this.Name = print;
-       return `id is  ${this.id}, name is ${this.Name}, age is ${this.age}, level is ${this.level}, task is ${this.tasksCompleted}`  
-    }
- }]
-console.log(given.print1())*/
+  /* let a = [
+    {id:1,Name:"Mohammed",age:18,level:"intermediate",tasksCompleted:8},
+    {id:2,Name:"Omar",age:22,level:"beginner",tasksCompleted:2},
+   { id:3,Name:"Sarah",age:20,level:"beginner",tasksCompleted:4},
+    {id:4,Name:"Saleh",age:15,level:"intermediate",tasksCompleted:6},
+   { id:5,Name:"Saud",age:30,level:"advanced",tasksCompleted:10},
+    {id:6,Name:"Amani",age:25,level:"advanced",tasksCompleted:10},
+   { id:7,Name:"Lojain",age:23,level:"advanced",tasksCompleted:10},]
 
-/*
-given.forEach(function(currntvalue,indeix,array){
-console.log(currntvalue)
-})
-const per = given.map(function(currntvalue,indeix,array){
-     return currntvalue
-})
-console.log(per);
-
-
-for(let i = 1; i<= given.length; i++){
-   
-        console.log(given[0].Name,given[0].age,given[0].tasksCompleted)
-    
-    }
-    for(let i = 1; i<= given.length; i++){
-      if(given[1].tasksCompleted>1)
-        console.log(given[1].tasksCompleted)
-    }
-
-    for(let i = 1; i<= given.length; i++){
-        if(given[2].age >= 25)
-        console.log(given[2].age)
-
-    }*/
-
+   for (const iterator of a) 
+        console.log(`id is ${iterator.id}  name is ${iterator.Name} age is ${iterator.age}  level is ${iterator.leve}  task is ${iterator.tasksCompleted}` ) 
+    */
 //____________________
 //Q3
 /*let n1 ;
