@@ -16,32 +16,18 @@ output : process.stdout
 //_____________________________________
 
 //Q2
-/*function sum(){
-  let a = 5;
-let b = 6;
-console.log(a+b);
-process.exit();
-}
-sum()*/
-
-/*async function insertUser(n1,n2) {
-   n1 = await question(`enter first number `)
-   n2 =  await question(`enter second number `)
-  
-  process.exit();
-}
-insertUser()*/
-/*async function insertUser(Number,Number1) {
+async function insertUser(Number,Number1) {
   Number=await question(`enter first number `)
   Number1=await question(`enter second number `)
   if(Number >0 && Number1 >0){
-    console.log(Number+Number1)
+    console.log(parseInt(Number)+parseInt(Number1))
   }
  else
  console.log("please inter a large number")
  process.exit();
 }
-insertUser()*/
+insertUser()
+
 
 //_____________________________________
 //Q3
